@@ -2,7 +2,7 @@
  "nodes": {
   "node-red": {
    "name": "node-red",
-   "version": "0.12.2-git",
+   "version": "0.12.2",
    "nodes": {
     "sentiment": {
      "name": "sentiment",
@@ -11,7 +11,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/analysis/72-sentiment.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/analysis/72-sentiment.js"
     },
     "inject": {
      "name": "inject",
@@ -20,7 +20,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/20-inject.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/20-inject.js"
     },
     "catch": {
      "name": "catch",
@@ -29,7 +29,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/25-catch.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/25-catch.js"
     },
     "status": {
      "name": "status",
@@ -38,7 +38,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/25-status.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/25-status.js"
     },
     "debug": {
      "name": "debug",
@@ -47,7 +47,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/58-debug.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/58-debug.js"
     },
     "exec": {
      "name": "exec",
@@ -56,7 +56,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/75-exec.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/75-exec.js"
     },
     "function": {
      "name": "function",
@@ -65,7 +65,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/80-function.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/80-function.js"
     },
     "template": {
      "name": "template",
@@ -74,7 +74,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/80-template.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/80-template.js"
     },
     "delay": {
      "name": "delay",
@@ -83,7 +83,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/89-delay.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/89-delay.js"
     },
     "trigger": {
      "name": "trigger",
@@ -92,7 +92,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/89-trigger.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/89-trigger.js"
     },
     "comment": {
      "name": "comment",
@@ -101,7 +101,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/90-comment.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/90-comment.js"
     },
     "unknown": {
      "name": "unknown",
@@ -110,7 +110,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/core/98-unknown.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/core/98-unknown.js"
     },
     "rpi-gpio": {
      "name": "rpi-gpio",
@@ -121,7 +121,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/hardware/36-rpi-gpio.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/hardware/36-rpi-gpio.js"
     },
     "mqtt": {
      "name": "mqtt",
@@ -132,7 +132,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/io/10-mqtt.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/io/10-mqtt.js"
     },
     "httpin": {
      "name": "httpin",
@@ -143,7 +143,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/io/21-httpin.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/io/21-httpin.js"
     },
     "websocket": {
      "name": "websocket",
@@ -155,7 +155,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/io/22-websocket.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/io/22-websocket.js"
     },
     "watch": {
      "name": "watch",
@@ -164,7 +164,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/io/23-watch.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/io/23-watch.js"
     },
     "tcpin": {
      "name": "tcpin",
@@ -175,7 +175,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/io/31-tcpin.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/io/31-tcpin.js"
     },
     "udp": {
      "name": "udp",
@@ -185,7 +185,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/io/32-udp.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/io/32-udp.js"
     },
     "switch": {
      "name": "switch",
@@ -194,7 +194,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/logic/10-switch.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/logic/10-switch.js"
     },
     "change": {
      "name": "change",
@@ -203,7 +203,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/logic/15-change.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/logic/15-change.js"
     },
     "range": {
      "name": "range",
@@ -212,7 +212,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/logic/16-range.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/logic/16-range.js"
     },
     "CSV": {
      "name": "CSV",
@@ -221,7 +221,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/parsers/70-CSV.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/parsers/70-CSV.js"
     },
     "HTML": {
      "name": "HTML",
@@ -230,7 +230,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/parsers/70-HTML.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/parsers/70-HTML.js"
     },
     "JSON": {
      "name": "JSON",
@@ -239,7 +239,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/parsers/70-JSON.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/parsers/70-JSON.js"
     },
     "XML": {
      "name": "XML",
@@ -248,7 +248,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/parsers/70-XML.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/parsers/70-XML.js"
     },
     "tail": {
      "name": "tail",
@@ -257,7 +257,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/storage/28-tail.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/storage/28-tail.js"
     },
     "file": {
      "name": "file",
@@ -267,7 +267,7 @@
      ],
      "enabled": true,
      "module": "node-red",
-     "file": "/home/mark/node-red/local-test/node-red/nodes/core/storage/50-file.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/nodes/core/storage/50-file.js"
     }
    }
   },
@@ -283,7 +283,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-email",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-email/61-email.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/node_modules/node-red-node-email/61-email.js"
     }
    }
   },
@@ -298,7 +298,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-feedparser",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-feedparser/32-feedparse.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/node_modules/node-red-node-feedparser/32-feedparse.js"
     }
    }
   },
@@ -313,7 +313,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-rbe",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-rbe/rbe.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/node_modules/node-red-node-rbe/rbe.js"
     }
    }
   },
@@ -330,25 +330,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-twitter",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-twitter/27-twitter.js"
-    }
-   }
-  },
-  "node-red-node-aws": {
-   "name": "node-red-node-aws",
-   "version": "0.1.0",
-   "nodes": {
-    "amazon s3": {
-     "name": "amazon s3",
-     "types": [
-      "amazon s3 in",
-      "amazon s3",
-      "amazon s3 out",
-      "aws-config"
-     ],
-     "enabled": true,
-     "module": "node-red-node-aws",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-aws/aws.js"
+     "file": "/home/mark/node-red/node-red-template/node-red/node_modules/node-red-node-twitter/27-twitter.js"
     }
    }
   },
@@ -363,7 +345,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-file-function",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-file-function/file-function/file-function.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-file-function/file-function/file-function.js"
     }
    }
   },
@@ -378,7 +360,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-firebase",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_auth.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_auth.js"
     },
     "firebase_config": {
      "name": "firebase_config",
@@ -387,7 +369,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-firebase",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_config.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_config.js"
     },
     "firebase_modify": {
      "name": "firebase_modify",
@@ -396,7 +378,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-firebase",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_modify.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_modify.js"
     },
     "firebase_on": {
      "name": "firebase_on",
@@ -405,7 +387,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-firebase",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_on.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_on.js"
     },
     "firebase_once": {
      "name": "firebase_once",
@@ -414,7 +396,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-firebase",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_once.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_once.js"
     },
     "firebase_ondisconnect": {
      "name": "firebase_ondisconnect",
@@ -423,7 +405,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-firebase",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_ondisconnect.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-firebase/firebase/firebase_ondisconnect.js"
     }
    }
   },
@@ -440,7 +422,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-flow-dispatcher",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-flow-dispatcher/Communicator-nodes/Communicator.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-flow-dispatcher/Communicator-nodes/Communicator.js"
     },
     "Dispatcher": {
      "name": "Dispatcher",
@@ -451,7 +433,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-flow-dispatcher",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-flow-dispatcher/Dispatcher-nodes/Dispatcher.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-flow-dispatcher/Dispatcher-nodes/Dispatcher.js"
     }
    }
   },
@@ -466,7 +448,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-globalgetset",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-globalgetset/globalgetset.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-globalgetset/globalgetset.js"
     }
    }
   },
@@ -482,7 +464,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-googlechart",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-googlechart/googlechart.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-googlechart/googlechart.js"
     }
    }
   },
@@ -497,7 +479,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-json",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-json/json.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-json/json.js"
     }
    }
   },
@@ -514,7 +496,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-orchestrate",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-orchestrate/orchestrate/node-red-contrib-orchestrate.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-orchestrate/orchestrate/node-red-contrib-orchestrate.js"
     }
    }
   },
@@ -531,7 +513,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-pubnub",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-pubnub/nodes/pubnub-node-red.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-pubnub/nodes/pubnub-node-red.js"
     }
    }
   },
@@ -556,7 +538,7 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-webdriverio",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-webdriverio/webdriverio.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-webdriverio/webdriverio.js"
     },
     "webdriverio-session": {
      "name": "webdriverio-session",
@@ -565,7 +547,40 @@
      ],
      "enabled": true,
      "module": "node-red-contrib-webdriverio",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-contrib-webdriverio/webdriverio-session.js"
+     "file": "/home/mark/node-red/node_modules/node-red-contrib-webdriverio/webdriverio-session.js"
+    }
+   }
+  },
+  "node-red-firebase": {
+   "name": "node-red-firebase",
+   "version": "0.1.0",
+   "nodes": {
+    "firebase_modify": {
+     "name": "firebase_modify",
+     "types": [
+      "firebase modify"
+     ],
+     "enabled": true,
+     "module": "node-red-firebase",
+     "file": "/home/mark/node-red/node_modules/node-red-firebase/firebase_modify.js"
+    },
+    "firebase_query": {
+     "name": "firebase_query",
+     "types": [
+      "firebase query"
+     ],
+     "enabled": true,
+     "module": "node-red-firebase",
+     "file": "/home/mark/node-red/node_modules/node-red-firebase/firebase_query.js"
+    },
+    "firebase_watch": {
+     "name": "firebase_watch",
+     "types": [
+      "firebase watch"
+     ],
+     "enabled": true,
+     "module": "node-red-firebase",
+     "file": "/home/mark/node-red/node_modules/node-red-firebase/firebase_watch.js"
     }
    }
   },
@@ -580,7 +595,25 @@
      ],
      "enabled": true,
      "module": "node-red-lzw",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-lzw/lzw/00-lzw.js"
+     "file": "/home/mark/node-red/node_modules/node-red-lzw/lzw/00-lzw.js"
+    }
+   }
+  },
+  "node-red-node-aws": {
+   "name": "node-red-node-aws",
+   "version": "0.1.0",
+   "nodes": {
+    "amazon s3": {
+     "name": "amazon s3",
+     "types": [
+      "amazon s3 in",
+      "amazon s3",
+      "amazon s3 out",
+      "aws-config"
+     ],
+     "enabled": true,
+     "module": "node-red-node-aws",
+     "file": "/home/mark/node-red/node_modules/node-red-node-aws/aws.js"
     }
    }
   },
@@ -595,7 +628,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-daemon",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-daemon/daemon.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-daemon/daemon.js"
     }
    }
   },
@@ -613,7 +646,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-dropbox",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-dropbox/dropbox.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-dropbox/dropbox.js"
     }
    }
   },
@@ -628,7 +661,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-geohash",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-geohash/70-geohash.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-geohash/70-geohash.js"
     }
    }
   },
@@ -645,7 +678,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-google",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-google/calendar.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-google/calendar.js"
     },
     "google directions": {
      "name": "google directions",
@@ -654,7 +687,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-google",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-google/directions.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-google/directions.js"
     },
     "google geocoding": {
      "name": "google geocoding",
@@ -663,7 +696,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-google",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-google/geocoding.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-google/geocoding.js"
     },
     "google places": {
      "name": "google places",
@@ -672,7 +705,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-google",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-google/places.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-google/places.js"
     },
     "google plus": {
      "name": "google plus",
@@ -681,7 +714,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-google",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-google/plus.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-google/plus.js"
     },
     "google-api-config": {
      "name": "google-api-config",
@@ -691,7 +724,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-google",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-google/google.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-google/google.js"
     }
    }
   },
@@ -706,7 +739,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-nma",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-nma/57-nma.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-nma/57-nma.js"
     }
    }
   },
@@ -721,7 +754,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-ping",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-ping/88-ping.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-ping/88-ping.js"
     }
    }
   },
@@ -737,7 +770,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-pusher",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-pusher/pusher.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-pusher/pusher.js"
     }
    }
   },
@@ -752,7 +785,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-random",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-random/random.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-random/random.js"
     }
    }
   },
@@ -767,7 +800,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-redis",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-redis/65-redisout.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-redis/65-redisout.js"
     }
    }
   },
@@ -782,7 +815,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-smooth",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-smooth/17-smooth.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-smooth/17-smooth.js"
     }
    }
   },
@@ -799,7 +832,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-stomp",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-stomp/18-stomp.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-stomp/18-stomp.js"
     }
    }
   },
@@ -815,7 +848,7 @@
      ],
      "enabled": true,
      "module": "node-red-node-twilio",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-node-twilio/56-twilio.js"
+     "file": "/home/mark/node-red/node_modules/node-red-node-twilio/56-twilio.js"
     }
    }
   },
@@ -830,40 +863,7 @@
      ],
      "enabled": true,
      "module": "ttb-ifttt",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/ttb-ifttt/ifttt-trigger.js"
-    }
-   }
-  },
-  "node-red-firebase": {
-   "name": "node-red-firebase",
-   "version": "0.1.0",
-   "nodes": {
-    "firebase_modify": {
-     "name": "firebase_modify",
-     "types": [
-      "firebase modify"
-     ],
-     "enabled": true,
-     "module": "node-red-firebase",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-firebase/firebase_modify.js"
-    },
-    "firebase_query": {
-     "name": "firebase_query",
-     "types": [
-      "firebase query"
-     ],
-     "enabled": true,
-     "module": "node-red-firebase",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-firebase/firebase_query.js"
-    },
-    "firebase_watch": {
-     "name": "firebase_watch",
-     "types": [
-      "firebase watch"
-     ],
-     "enabled": true,
-     "module": "node-red-firebase",
-     "file": "/home/mark/node-red/local-test/node-red/node_modules/node-red-firebase/firebase_watch.js"
+     "file": "/home/mark/node-red/node_modules/ttb-ifttt/ifttt-trigger.js"
     }
    }
   }
